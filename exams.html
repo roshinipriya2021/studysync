@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync | Exams</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            📚 StudySync
+        </div>
+
+        <ul class="nav-links">
+
+            <li><a href="index.html">Dashboard</a></li>
+
+            <li><a href="tasks.html">Tasks</a></li>
+
+            <li>
+                <a class="active" href="exams.html">
+                    Exams
+                </a>
+            </li>
+
+            <li><a href="progress.html">Progress</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="dashboard">
+
+    <h2>
+        Exam Tracker
+    </h2>
+
+    <div class="exam-form">
+
+        <input
+            type="text"
+            id="examName"
+            placeholder="Exam Name">
+
+        <input
+            type="text"
+            id="examSubject"
+            placeholder="Subject">
+
+        <input
+            type="date"
+            id="examDate">
+
+        <button onclick="addExam()">
+            Add Exam
+        </button>
+
+    </div>
+
+    <div id="examList">
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        © 2026 StudySync
+    </p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+
+</html>
+

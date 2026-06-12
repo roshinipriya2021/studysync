@@ -1,0 +1,206 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySync | Dashboard</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                📚 StudySync
+            </div>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a class="active" href="index.html">
+                        Dashboard
+                    </a>
+                </li>
+
+                <li>
+                    <a href="tasks.html">
+                        Tasks
+                    </a>
+                </li>
+
+                <li>
+                    <a href="exams.html">
+                        Exams
+                    </a>
+                </li>
+
+                <li>
+                    <a href="progress.html">
+                        Progress
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Smart Student Study Planner
+            </h1>
+
+            <p>
+                Plan smarter. Track better. Achieve more.
+            </p>
+
+            <a href="tasks.html" class="btn">
+                Get Started
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DASHBOARD STATS ================= -->
+
+    <section class="dashboard">
+
+        <h2>
+            Dashboard Overview
+        </h2>
+
+        <div class="stats-container">
+
+            <div class="stat-card">
+
+                <i class="fas fa-tasks"></i>
+
+                <h3 id="totalTasks">
+                    0
+                </h3>
+
+                <p>
+                    Total Tasks
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fas fa-check-circle"></i>
+
+                <h3 id="completedTasks">
+                    0
+                </h3>
+
+                <p>
+                    Completed Tasks
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fas fa-hourglass-half"></i>
+
+                <h3 id="pendingTasks">
+                    0
+                </h3>
+
+                <p>
+                    Pending Tasks
+                </p>
+
+            </div>
+
+            <div class="stat-card">
+
+                <i class="fas fa-calendar-alt"></i>
+
+                <h3 id="upcomingExams">
+                    0
+                </h3>
+
+                <p>
+                    Upcoming Exams
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= TODAY'S FOCUS ================= -->
+
+    <section class="focus-section">
+
+        <div class="focus-card">
+
+            <h2>
+                🎯 Today's Focus
+            </h2>
+
+            <p id="todayFocus">
+                No tasks added yet.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= MOTIVATIONAL QUOTE ================= -->
+
+    <section class="quote-section">
+
+        <div class="quote-card">
+
+            <h2>
+                💡 Daily Motivation
+            </h2>
+
+            <p id="quoteText">
+                Success is the sum of small efforts repeated daily.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <p>
+            © 2026 StudySync | Smart Student Study Planner
+        </p>
+
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
